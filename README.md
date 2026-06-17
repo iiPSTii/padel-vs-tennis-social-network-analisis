@@ -132,6 +132,4 @@ You can also clear notebook outputs to make the repository lighter:
 jupyter nbconvert --clear-output --inplace notebooks/padel_vs_tennis_network_analysis_bluesky.ipynb
 ```
 
-## License
 
-Add a license before publishing if you want others to reuse the code or data.
