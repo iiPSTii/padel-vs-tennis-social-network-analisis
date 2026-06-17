@@ -120,16 +120,5 @@ export BLUESKY_HANDLE="your-handle.bsky.social"
 export BLUESKY_APP_PASSWORD="your-app-password"
 ```
 
-Do not commit credentials or app passwords to GitHub.
-
-## Notes before publishing
-
-Before pushing publicly, verify that the dataset does not contain private, sensitive, or non-redistributable information. The CSVs contain public social-media text and user handles, so you should confirm that sharing them is acceptable for your course/project rules.
-
-You can also clear notebook outputs to make the repository lighter:
-
-```bash
-jupyter nbconvert --clear-output --inplace notebooks/padel_vs_tennis_network_analysis_bluesky.ipynb
-```
 
 
